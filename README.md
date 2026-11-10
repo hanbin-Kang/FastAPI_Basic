@@ -24,9 +24,6 @@ HTTP의 기본 동작부터 시작하여 **API → JSON → FastAPI → CRUD →
   * PATCH
   * DELETE
 
-## 학습 자료
-
-* 생활코딩 HTTP
 
 ## 실습
 
@@ -319,7 +316,7 @@ FastAPI와 Database를 연결하여 실제 데이터를 저장하고 조회한�
 * Database Connection
 * CRUD
 * FastAPI + Database
-* FastAPI + Oracle
+* FastAPI + MySQL
 
 ## ORM
 
@@ -340,10 +337,10 @@ FastAPI
    ↓
 SQLAlchemy
    ↓
-Oracle
+MySQL
 ```
 
-## 기존 Oracle Database 활용
+## 기존 MySQL Database 활용
 
 기존에 설계한 Cafe Database를 활용한다.
 
@@ -366,7 +363,7 @@ POST /menus
 
 ## 학습 목표
 
-FastAPI에서 SQLAlchemy를 이용하여 Oracle Database와 연결하고 실제 데이터를 처리하는 전체 흐름을 이해한다.
+FastAPI에서 SQLAlchemy를 이용하여 MySQL Database와 연결하고 실제 데이터를 처리하는 전체 흐름을 이해한다.
 
 ---
 
